@@ -1,0 +1,56 @@
+* {
+  font-family: sans-serif;
+  }
+
+img {
+  width: 30vw;
+}
+
+#alpaca {
+  margin: 2em;
+  position: relative;
+  width: 50px;
+}
+
+#background {
+  border: 2px solid black;
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index: -1;
+}
+
+#neck, #hair, #ears {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#nose, #eyes, #mouth {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+#accesories {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+
+#right-panel {
+  padding-left: 3em;
+}
+
+button{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-weight: normal;
+  margin: 0.5em;
+}
+
