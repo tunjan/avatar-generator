@@ -1,0 +1,84 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+* { 
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+  /* outline: 2px dashed black; */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#alpaca img {
+  width: 80vw;
+  margin: 2em;
+  max-width: 400px;
+}
+
+#background {
+  border: 2px solid black;
+  z-index: -1;
+}
+
+#neck, #hair, #ears {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#nose, #eyes, #mouth, #accesories {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#rightPanel {
+  margin: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+#parts{
+  display: flex;
+  margin-bottom: 1em;
+}
+
+#styles > * {
+  display: flex;
+
+}
+
+button{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 0.5em;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 0 1em;
+}
+
+button:hover {
+  background-color: grey;
+  color: white;
+  transform: translateY(-0.25em);
+  transition: 0.25s;
+}
+
+#styles > * {
+  display: none;
+}
+
